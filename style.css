@@ -152,7 +152,7 @@ body{
 .headings h1::after{
     content:"";
     position: absolute;
-    width:15%;
+    width:16%;
     height: 4px;
     display: block;
     margin: 0 auto;
@@ -178,13 +178,29 @@ body{
 .heading h1{
     font-size: 50px;
     color:#fff;
-    margin-bottom: 25px;
+    margin-bottom: 2px;
     padding: relative;
 }
 .heading h1::after{
     content:"";
     position: absolute;
     width:12%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
+.headingz h1{
+    margin-left: 40%;
+    font-size: 50px;
+    color:#fff;
+    margin-bottom: 25px;
+    padding: relative;
+}
+.headingz h1::after{
+    content:"";
+    position: absolute;
+    width:15%;
     height: 4px;
     display: block;
     margin: 0 auto;
@@ -460,6 +476,13 @@ h3{
     z-index: 10;
     transition: color 0.5s;
 }
+.social-links a .fab{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
 .social-links a::after{
     content:'';
     width: 100%;
@@ -676,7 +699,7 @@ sub-header h1{
     justify-content: center;
 }
 
-@media(max-width: 1033px){
+@media(max-width: 1200px){
     .header{
     min-height: 100vh;
     width: 100%;
@@ -721,6 +744,39 @@ sub-header h1{
     .heading h1{
         font-size: 36px;
     }
+    .heading h1::after{
+    content:"";
+    position: absolute;
+    width:17%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
+    .headings h1{
+        font-size: 25px;
+    }
+    .headings h1::after{
+    content:"";
+    position: absolute;
+    width: 15%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
+    .headingz h1{
+        font-size: 25px;
+    }
+    .headingz h1::after{
+    content:"";
+    position: absolute;
+    width: 14%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
     .heading p{
         font-size: 17px;
         margin-bottom: 0px;
@@ -733,15 +789,19 @@ sub-header h1{
         flex-direction: column;
     }
     .about-image{
+        margin-left: 200px;
         margin-right: 0px;
         margin-bottom: 20px;
         width: 400px;
         height: 500px;
+        align-items: center;
     }
     .about-images{
+        margin-left: 200px;
         margin-right: 0px;
         width: 400px;
         height: 500px;
+        align-content: center
     }
     
     .about-content p{
@@ -882,6 +942,39 @@ sub-header h1{
     .heading h1{
         font-size: 36px;
     }
+    .heading h1::after{
+    content:"";
+    position: absolute;
+    width:20%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
+    .headings h1{
+        font-size: 36px;
+    }
+    .headings h1::after{
+    content:"";
+    position: absolute;
+    width:28%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
+    .headingz h1{
+        font-size: 25px;
+    }
+    .headingz h1::after{
+    content:"";
+    position: absolute;
+    width: 14%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:#05712d;
+}
     .heading p{
         font-size: 17px;
         margin-bottom: 0px;
@@ -897,6 +990,13 @@ sub-header h1{
         margin-right: 0px;
         margin-bottom: 20px;
         width: auto;
+        align-items: center
+    }
+    .about-images{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        width: auto;
+        align-items: center
     }
     .about-content p{
         padding:0px;
